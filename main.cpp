@@ -56,7 +56,15 @@ void affiche_grille (struct grille_cell jeu)
     {
        for(j=1;j<=jeu.ty;j++)
        {
-           cout<<jeu.etat[i][j]<<" ";
+           if(jeu.etat[i][j])
+           {
+               cout << "■";
+           }
+           else
+           {
+               cout <<"□";
+           }
+
        }cout<<endl;
     }
     cout<<endl;
