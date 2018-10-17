@@ -1,2 +1,3 @@
 # projet-CVDA
-Dans le but de comprendre git
+tout se trouve dans le main.
+
